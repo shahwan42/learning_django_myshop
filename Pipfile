@@ -12,6 +12,7 @@ autopep8 = "*"
 [packages]
 django = "*"
 pillow = "*"
+celery = "*"
 
 [requires]
 python_version = "3.6"
