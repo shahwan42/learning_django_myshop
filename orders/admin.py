@@ -43,10 +43,17 @@ def order_detail(obj):
     return mark_safe(f'<a href="{reverse("orders:admin_order_detail", args=[obj.id])}">View</a>')
 
 
+def order_pdf(obj):
+    return mark_safe(f'<a href="{reverse("orders:admin_order_pdf", args=[obj.id])}">PDF</a>')
+
+
+order_pdf.short_description = 'Invoice'
+
+
 @admin.register(Order)
 class OrderAdmin(admin.ModelAdmin):
     list_display = ['id', 'first_name', 'last_name', 'email', 'address', 'postal_code', 'city', 'paid', 'created',
-                    'updated', order_detail]
+                    'updated', order_detail, order_pdf]
     list_filter = ['paid', 'created', 'updated']
     inlines = [OrderItemInline]
     actions = [export_to_csv]
