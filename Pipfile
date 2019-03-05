@@ -18,6 +18,7 @@ braintree = "*"
 weasyprint = "*"
 django-rosetta = "*"
 django-parler = "*"
+django-localflavor = "*"
 
 [requires]
 python_version = "3.6"
