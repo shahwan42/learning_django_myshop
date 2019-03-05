@@ -16,6 +16,7 @@ celery = "*"
 flower = "*"
 braintree = "*"
 weasyprint = "*"
+django-rosetta = "*"
 
 [requires]
 python_version = "3.6"
