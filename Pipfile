@@ -17,6 +17,7 @@ flower = "*"
 braintree = "*"
 weasyprint = "*"
 django-rosetta = "*"
+django-parler = "*"
 
 [requires]
 python_version = "3.6"
