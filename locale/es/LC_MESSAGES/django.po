@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-05 02:34+0200\n"
+"POT-Creation-Date: 2019-03-05 03:19+0200\n"
 "PO-Revision-Date: 2019-03-05 00:45+0000\n"
 "Last-Translator: b'  <ahmed@shahwan.me>'\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,7 +52,6 @@ msgid "payment/"
 msgstr "pago"
 
 #: myshop/urls.py:28
-#| msgid "Coupon"
 msgid "coupons/"
 msgstr "Cupón"
 
@@ -68,15 +67,19 @@ msgstr "hecho"
 msgid "canceled/"
 msgstr "cancelado"
 
-#: shop/templates/shop/base.html:10 shop/templates/shop/base.html:15
+#: shop/templates/shop/base.html:10 shop/templates/shop/base.html:16
 msgid "My shop"
 msgstr "Mi tienda"
 
-#: shop/templates/shop/base.html:20
+#: shop/templates/shop/base.html:21
+msgid "Language"
+msgstr ""
+
+#: shop/templates/shop/base.html:36
 msgid "Your cart"
 msgstr "Tu carro"
 
-#: shop/templates/shop/base.html:22
+#: shop/templates/shop/base.html:38
 #, python-format
 msgid ""
 "\n"
@@ -86,7 +89,7 @@ msgstr ""
 "\n"
 "%(total_items)s producto%(total_items_plural)s, $%(total_price)s"
 
-#: shop/templates/shop/base.html:27
+#: shop/templates/shop/base.html:43
 msgid "Your cart is empty."
 msgstr "Tu carro está vacío."
 
