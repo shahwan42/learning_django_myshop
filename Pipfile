@@ -19,6 +19,8 @@ weasyprint = "*"
 django-rosetta = "*"
 django-parler = "*"
 django-localflavor = "*"
+redis = "==2.10.6"
+tornado = "==4.2.0"
 
 [requires]
 python_version = "3.6"

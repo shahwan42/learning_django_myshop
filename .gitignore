@@ -123,3 +123,6 @@ media/
 
 # ignore collected static files
 /static/
+
+# redis file
+dump.rdb
